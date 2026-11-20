@@ -20,14 +20,6 @@ Vitana Residence adalah platform web untuk satu properti kos putri di Yogyakarta
 
 Data kamar, status hunian, tagihan, pembayaran, dan keluhan saling terhubung. Status kamar berubah otomatis ketika pengajuan disetujui atau penghuni diproses keluar.
 
-## Status Proyek
-
-- Tahap 1: antarmuka publik, Admin, dan Penyewa selesai.
-- Tahap 2: backend Laravel, MySQL, API, autentikasi, pembayaran, notifikasi, dan scheduler selesai.
-- Tahap 3: pengujian alur, audit aksesibilitas, pengujian responsif, dan production build selesai.
-- Aplikasi siap dikonfigurasi untuk deployment.
-- Deploy ke server publik belum dilakukan dari repository ini.
-
 ## Tampilan
 
 ### Beranda Publik
@@ -471,13 +463,6 @@ npm run build
 - Responsif pada 375 px, 768 px, 1024 px, 1280 px, dan 1440 px.
 - Audit aksesibilitas WCAG 2 A/AA pada halaman utama.
 - Production build React dan production preview.
-
-## Kontak
-
-- WhatsApp Admin: `089674284422`
-- Email: `admin@vitanaresidence.id`
-- Alamat: Jl. Kaliurang Km 5,2, Gg. Pandega Marta No. 14, Depok, Sleman, Yogyakarta
-
 ---
 
 <p align="center">
