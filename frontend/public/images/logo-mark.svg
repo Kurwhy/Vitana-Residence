@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Vitana Residence">
+  <g fill="none" stroke="#1B5E4B" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M8 15 L18 6 L28 15" stroke-width="1.6"/>
+    <path d="M36 15 L46 6 L56 15" stroke-width="1.6"/>
+    <path d="M18 16 L32 45 L46 16" stroke-width="8"/>
+    <path d="M10 54 H54" stroke-width="1.6"/>
+  </g>
+</svg>

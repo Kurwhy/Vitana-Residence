@@ -1,0 +1,119 @@
+@import '@fontsource/plus-jakarta-sans/400.css';
+@import '@fontsource/plus-jakarta-sans/500.css';
+@import '@fontsource/plus-jakarta-sans/600.css';
+@import '@fontsource/plus-jakarta-sans/700.css';
+@import '@fontsource/plus-jakarta-sans/800.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ivory font-sans text-body text-ink antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply text-ink;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  a,
+  button,
+  [role='button'],
+  summary,
+  label[for] {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  input:disabled,
+  select:disabled,
+  textarea:disabled {
+    cursor: not-allowed;
+  }
+
+  :focus-visible {
+    outline: 2px solid #62a390;
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: #b9d9cf;
+    color: #123d31;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+@layer components {
+  .table-shell {
+    @apply overflow-x-auto rounded-card border border-line bg-white;
+  }
+
+  .table-base {
+    @apply w-full min-w-[820px] border-collapse text-left;
+  }
+
+  .table-head {
+    @apply border-b border-line bg-brand-50/70;
+  }
+
+  .th-cell {
+    @apply whitespace-nowrap px-4 py-3 text-small font-semibold text-muted;
+  }
+
+  .table-row {
+    @apply h-[52px] border-b border-line transition-colors last:border-0 hover:bg-brand-50/50;
+  }
+
+  .td-cell {
+    @apply px-4 py-2 align-middle text-small text-ink;
+  }
+}
+
+@layer utilities {
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8;
+  }
+
+  .container-panel {
+    @apply mx-auto w-full max-w-[1200px] px-4 py-6 sm:px-6 lg:px-8;
+  }
+
+  .text-link {
+    @apply font-semibold text-brand-700 underline decoration-brand-300 underline-offset-4 transition-colors hover:text-brand-900;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 800" role="img" aria-label="Vitana Residence">
+  <rect width="720" height="800" fill="#FAFAF8"/>
+  <g fill="none" stroke="#1B5E4B" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M150 205 L220 135 L290 205" stroke-width="6"/>
+    <path d="M430 205 L500 135 L570 205" stroke-width="6"/>
+    <path d="M218 210 L360 500 L502 210" stroke-width="38"/>
+    <path d="M150 542 H570" stroke-width="5"/>
+  </g>
+  <g fill="#1B5E4B" font-family="Plus Jakarta Sans, Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="360" y="640" font-size="88" font-weight="600" letter-spacing="14">VITANA</text>
+    <text x="360" y="705" font-size="38" font-weight="400" letter-spacing="20">RESIDENCE</text>
+    <path d="M188 738 H532" stroke="#1B5E4B" stroke-width="2"/>
+    <text x="360" y="775" font-size="15" font-weight="500" letter-spacing="3.5">A SERENE FEMALE BOARDING HOUSE</text>
+  </g>
+</svg>
